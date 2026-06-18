@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006367-blue)](https://doi.org/10.82901/nemar.on006367)
+
 In this memory interference task, each trial began  
 with a space key press, followed by a fixation dot   
 for 1000–1500 ms. Then, two lateral objects appeared:
