@@ -2,17 +2,43 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Memory Reactivation Levels Remain Unaffected by Anticipated Interference",
+  "description": "This dataset contains neuroimaging data from a memory interference task designed to investigate how anticipated interference affects memory reactivation. Participants learned object-location associations and performed a recognition task with manipulated interference conditions. The study examines whether memory reactivation levels are modulated by the expectation of interfering stimuli during memory retrieval. Data includes EEG recordings from the task along with behavioral responses and preprocessing scripts.",
+  "methods_description": "Memory interference task with trial structure: space key initiation, fixation (1000-1500 ms), presentation of cued target and novel object, 1400 ms delay, interference objects on half of blocks, probe presentation with vertical object alignment, and response-contingent feedback (1000 ms). EEG data were recorded using a standard 64-channel montage and preprocessed using EEGLAB and custom MATLAB scripts. Preprocessing included artifact removal, filtering, and independent component analysis (ICA). Detailed preprocessing parameters and analysis code are available in the associated Open Science Framework repository and accompanying publications.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "xx": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds006367.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "memory interference"
     },
+    {
+      "term": "memory reactivation"
+    },
+    {
+      "term": "object-location associations"
+    },
+    {
+      "term": "anticipated interference"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "recognition task"
+    },
+    {
+      "term": "memory retrieval"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on006367",
       "identifier_type": "URL",
@@ -22,14 +48,19 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006367",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds006367.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "29.8 GB (164 files)"
   ],
   "formats": [
     ".c",
@@ -42,35 +73,8 @@
     ".mexmaci64",
     ".mexw64",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains EEG data from a memory interference task designed to investigate how anticipated interference affects memory reactivation. Participants learned target objects and performed a recognition task with manipulated interference conditions, where irrelevant novel objects were presented on half the trials during a delay period. EEG was recorded using 64 electrodes at 500 Hz sampling rate. The study examines whether memory reactivation levels are modulated by the expectation of interfering stimuli.",
-  "methods_description": "Memory interference task with trial structure: space key initiation, fixation (1000-1500 ms), presentation of cued target and novel object, 1400 ms delay with interference objects on half of blocks, probe presentation with vertical object alignment, and response-contingent feedback (1000 ms). EEG preprocessing procedures including artifact rejection, filtering, and epoching are detailed in the associated preprint and OSF repository.",
-  "keywords": [
-    {
-      "term": "memory interference"
-    },
-    {
-      "term": "memory reactivation"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "recognition memory"
-    },
-    {
-      "term": "delay period"
-    },
-    {
-      "term": "probe recognition"
-    },
-    {
-      "term": "working memory"
-    }
-  ],
-  "source_hash": "8f2e290f610ff4bad267cfe03ba2a9d86e554a56c0c1c0338e99b9fa150a36eb"
+  "source_hash": "72a548cabc25df5eb5fa342af75904bbbc2925945fed69e71b1921def88171ce"
 }
