@@ -1,27 +1,76 @@
 {
   "version": "2.0",
-  "dataset_id": "on006367",
-  "source": "openneuro",
-  "source_id": "ds006367",
+  "pipeline_stage": "enriched",
   "title": "Memory Reactivation Levels Remain Unaffected by Anticipated Interference",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "xx": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds006367.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006367",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006367",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".c",
+    ".fdt",
+    ".h",
+    ".json",
+    ".m",
+    ".md",
+    ".mexa64",
+    ".mexmaci64",
+    ".mexw64",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This dataset contains EEG data from a memory interference task designed to investigate how anticipated interference affects memory reactivation. Participants learned target objects and performed a recognition task with manipulated interference conditions, where irrelevant novel objects were presented on half the trials during a delay period. EEG was recorded using 64 electrodes at 500 Hz sampling rate. The study examines whether memory reactivation levels are modulated by the expectation of interfering stimuli.",
+  "methods_description": "Memory interference task with trial structure: space key initiation, fixation (1000-1500 ms), presentation of cued target and novel object, 1400 ms delay with interference objects on half of blocks, probe presentation with vertical object alignment, and response-contingent feedback (1000 ms). EEG preprocessing procedures including artifact rejection, filtering, and epoching are detailed in the associated preprint and OSF repository.",
+  "keywords": [
+    {
+      "term": "memory interference"
+    },
+    {
+      "term": "memory reactivation"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "recognition memory"
+    },
+    {
+      "term": "delay period"
+    },
+    {
+      "term": "probe recognition"
+    },
+    {
+      "term": "working memory"
+    }
+  ],
+  "source_hash": "8f2e290f610ff4bad267cfe03ba2a9d86e554a56c0c1c0338e99b9fa150a36eb"
 }
