@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Memory Reactivation Levels Remain Unaffected by Anticipated Interference",
-  "description": "This dataset contains neuroimaging data from a memory interference task designed to investigate how anticipated interference affects memory reactivation. Participants learned object-location associations and performed a recognition task with manipulated interference conditions. The study examines whether memory reactivation levels are modulated by the expectation of interfering stimuli during memory retrieval. Data includes EEG recordings from the task along with behavioral responses and preprocessing scripts.",
-  "methods_description": "Memory interference task with trial structure: space key initiation, fixation (1000-1500 ms), presentation of cued target and novel object, 1400 ms delay, interference objects on half of blocks, probe presentation with vertical object alignment, and response-contingent feedback (1000 ms). EEG data were recorded using a standard 64-channel montage and preprocessed using EEGLAB and custom MATLAB scripts. Preprocessing included artifact removal, filtering, and independent component analysis (ICA). Detailed preprocessing parameters and analysis code are available in the associated Open Science Framework repository and accompanying publications.",
+  "description": "EEG dataset from a visual working memory interference task (Experiment 1) investigating whether memory reactivation levels are affected by anticipated interference. Participants memorized a cued target object among two lateral objects; interference objects were shown in half of the blocks, followed by a probe and feedback. Preprocessing steps are described in an accompanying preprint and OSF repository referenced by the dataset authors.",
+  "methods_description": "Each trial began with a space key press and a fixation dot (1000-1500 ms). A cued target (learned) and an irrelevant novel object appeared laterally, and participants memorized the cued object. After a 1400 ms delay, interference objects were briefly presented in half of the blocks (otherwise fixation only). A probe with two vertically aligned objects followed, and participants selected the target with arrow keys, then received color-coded feedback for 1000 ms.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,31 +11,31 @@
   },
   "keywords": [
     {
-      "term": "memory interference"
+      "term": "EEG"
     },
     {
       "term": "memory reactivation"
     },
     {
-      "term": "object-location associations"
+      "term": "memory interference"
     },
     {
-      "term": "anticipated interference"
+      "term": "working memory"
     },
     {
-      "term": "cognitive neuroscience"
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
     },
     {
-      "term": "neuroimaging"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "EEG"
-    },
-    {
-      "term": "recognition task"
-    },
-    {
-      "term": "memory retrieval"
+      "term": "Memory, Short-Term",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
     }
   ],
   "related_identifiers": [
@@ -45,14 +45,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on006367",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds006367.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006367",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -60,7 +60,7 @@
     "eeg"
   ],
   "sizes": [
-    "29.8 GB (164 files)"
+    "27.76 GB (164 files)"
   ],
   "formats": [
     ".c",
